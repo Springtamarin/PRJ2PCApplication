@@ -12,6 +12,7 @@ int main()
 		cout << serialCom.WriteSerialPort("m2\n") << endl;
 		Sleep(1000);
 		cout << serialCom.WriteSerialPort("m3\n") << endl;
+		Sleep(1000);
 	}
 
 	return 0;
